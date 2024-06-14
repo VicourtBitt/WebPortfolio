@@ -1,0 +1,60 @@
+:root{
+    --white: #FFFFFF;
+    --light-blue: #cce6ff;
+}
+
+.formated__icon{
+    font-size: 2rem
+}
+
+.formated__medium__icon{
+    font-size: 3rem;
+}
+
+.footer__medium__size{
+    padding: 1.25rem;
+}
+
+.fixed__left-side{
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    height: 100%;
+    width: 140px;
+}
+
+.bigger__button{
+    height: 200px;
+}
+
+.bg-light-blue{
+    background: var(--light-blue);
+}
+
+.center__image{
+    text-align: center;
+}
+
+.card__border{
+    border: 4px solid blue;
+    max-height: 950px;
+}
+
+.overflow__scroll{
+    overflow: scroll;
+}
+
+.no__link > div{
+    text-decoration: none;
+    transition: 1000ms;
+}
+
+.no__link:hover > div{
+    box-shadow: -3px 3px 2px black;
+    background: rgb(187, 187, 187);
+    transition: 1000ms;
+}
+
+.project__image{
+    max-height: 300px;
+}
