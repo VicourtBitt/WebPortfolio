@@ -1,0 +1,34 @@
+@import url("header.css");
+@import url(content.css);
+
+/* HTML ROOT */
+:root{
+    --orange: #F39C12;
+    --light-blue: #D6EAF8;
+    --pastel-blue: #5DADE2;
+    --dimblue: #2874A6;
+    --white: #FFFFFF;
+    --gray: #99A3A4;
+}
+
+/* HTML Structure */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: var(--light-blue);
+    font-size: 16px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* classes */
+
+.footer__container{
+    background-color: var(--pastel-blue);
+    margin-top: 40px;
+    line-height: 65px;
+    text-align: center;
+    height: 65px;
+}
