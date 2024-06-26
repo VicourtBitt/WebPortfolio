@@ -15,3 +15,17 @@
 .button__page{
     height: 40px;
 }
+
+.titulo__dentro{
+    display: inline-block;
+    text-align: center;
+}
+
+.caixa__central{
+    width: 360px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center
+}
