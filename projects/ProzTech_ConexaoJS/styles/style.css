@@ -1,0 +1,22 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(main__content.css);
+
+:root{
+    --principal-color: #EB984E;
+    --second-color: #E67E22;
+    --terciary-color: #D6EAF8;
+    --quaternary-color: #F0B27A;
+    --auxiliar-color1: #2471A3;
+    --auxiliar-color2: #EAF2F8;
+    --alternative: #1F618D;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--terciary-color);
+}

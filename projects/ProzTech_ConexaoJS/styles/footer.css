@@ -1,0 +1,45 @@
+.rodape{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0%;
+    height: 80px;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: var(--auxiliar-color1);
+}
+
+.rodape__navbar{
+    text-align: center;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.rodape__item{
+    display: inline-block;
+    width: 33%;
+}
+
+.rodape__item, .rodape__direitos{
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.rodape__link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: var(--auxiliar-color2);
+    transition: 500ms;
+}
+
+.rodape__link:hover{
+    background: var(--alternative);
+}
